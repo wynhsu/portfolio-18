@@ -18,6 +18,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "deploy": "surge ./"
+  },
+  "devDependencies": {
+    "surge": "^0.19.0"
+  },
+  "home": "https://github.io/wynhsu/portfolio_18/build"
+  
 }

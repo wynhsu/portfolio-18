@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import constants from './constants';
 
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
 export default class Graphic extends React.Component {
