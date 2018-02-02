@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "home": "https://wynhsu.github.io/portfolio-18/build/",
+  "home": "https://wynhsu.github.io/portfolio-18/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,12 +8,15 @@
     "react-accessible-accordion": "^1.0.2",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^15.6.2",
+    "react-fullpage": "^0.1.18",
     "react-grid-gallery": "^0.4.8",
     "react-responsive-carousel": "^3.1.30",
     "react-scripts": "1.0.17",
     "react-scroll-parallax": "^1.2.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
