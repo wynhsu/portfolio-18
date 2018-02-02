@@ -18,5 +18,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "home": "https://wynhsu.github.io/portfolio-18"
+  "home": "https://wynhsu.github.io/portfolio-18/build/"
 }
