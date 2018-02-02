@@ -34,20 +34,6 @@ p {
   }
 }
 
-@keyframes slideIn {
-  from, to {
-    transform: translateX()
-  }
-}
-
-.gradient {
-  position: absolute;
-  background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0));
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-}
-
 .title {
   color: #fff;
   position: absolute;
@@ -57,12 +43,26 @@ p {
   text-align: center;
 }
 
-.splash {
-  height: 100vh;
-  width: 100vw;
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0)), url("/img/test.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.cover {
+.splash {
+  height: 100%;
+  width: 100%;
+}
+
+.cover { /**/
   position: absolute;
   background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0));
   height: 100vh;

@@ -22,11 +22,11 @@ export default class UI extends React.Component {
                 <div className='sticky-top'>
                     <ul className='nav d-flex justify-content-around'>
                         <Nav title='Works' link='/' />
-                        <Nav title='Gallery' link='/gallery' />
+                        <Nav title='About' link='/about' />
                         <div className='d-flex logo'>
                             <img src={constants.images.logo} alt="logo" />
                         </div>
-                        <Nav title='About' link='/about' />
+                        <Nav title='Gallery' link='/gallery' />
                         <Nav title='Contact' link='/contact' />
                     </ul>
                 </div>

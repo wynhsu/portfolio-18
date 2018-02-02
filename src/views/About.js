@@ -9,10 +9,11 @@ export default class About extends React.Component {
                 <div className='sticky-top'>
                     <ul className='nav d-flex justify-content-around'>
                         <Nav title='Works' link={constants.routes.work} />
-                        <Nav title='Gallery' link={constants.routes.photos} />
+                        <Nav className='disabled' title='About' link={constants.routes.about} />
                         <div className='d-flex logo'>
                             <img src={constants.images.logo} alt="logo" />
-                        </div>                    <Nav className='disabled' title='About' link={constants.routes.about} />
+                        </div>
+                        <Nav title='Gallery' link={constants.routes.photos} />
                         <Nav title='Contact' link={constants.routes.contact} />
                     </ul>
                 </div>

@@ -13,10 +13,11 @@ export default class Graphic extends React.Component {
                 <div className='sticky-top'>
                     <ul className='nav d-flex justify-content-around'>
                         <Nav title='Works' link='/' />
-                        <Nav title='Gallery' link='/gallery' />
+                        <Nav title='About' link='/about' />
                         <div className='d-flex logo'>
                             <img src={constants.images.logo} alt="logo" />
-                        </div>                    <Nav title='About' link='/about' />
+                        </div>
+                        <Nav title='Gallery' link='/gallery' />
                         <Nav title='Contact' link='/contact' />
                     </ul>
                 </div>
@@ -36,7 +37,7 @@ export default class Graphic extends React.Component {
                                 <a className='btn btn-primary'
                                     href="http://wynhsu.wixsite.com/info362-wynston">
                                     View Website
-                            </a>
+                                </a>
                             </div>
                             <div className='col-lg'>
                                 <img src={constants.images.diets} alt="info362" />

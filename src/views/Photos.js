@@ -229,10 +229,11 @@ export default class Photos extends React.Component {
                 <div className='sticky-top'>
                     <ul className='nav d-flex justify-content-around'>
                         <Nav title='Works' link={constants.routes.work} />
-                        <Nav className='disabled' title='Gallery' link={constants.routes.photos} />
+                        <Nav title='About' link={constants.routes.about} />
                         <div className='d-flex logo'>
                             <img src={constants.images.logo} alt="logo" />
-                        </div>                    <Nav title='About' link={constants.routes.about} />
+                        </div>
+                        <Nav className='disabled' title='Gallery' link={constants.routes.photos} />
                         <Nav title='Contact' link={constants.routes.contact} />
                     </ul>
                 </div>
