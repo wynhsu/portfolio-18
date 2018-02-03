@@ -1,7 +1,5 @@
 import React from 'react';
-import Nav from '../components/Nav';
 import Navbar from '../components/Navbar';
-import { Link } from 'react-router-dom';
 import constants from '../components/constants';
 
 export default class Coding extends React.Component {
