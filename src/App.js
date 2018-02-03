@@ -4,9 +4,9 @@ import Home from './views/Home';
 import Photos from './views/Photos';
 import About from './views/About';
 import Contact from './views/Contact';
-import UI from './components/UI';
-import Graphic from './components/Graphic';
-import Coding from './components/Coding';
+import UI from './views/UI';
+import Graphic from './views/Graphic';
+import Coding from './views/Coding';
 import constants from './components/constants';
 
 class App extends Component {
@@ -14,14 +14,14 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path={constants.routes.work} component={Home} />
+          <Route exact path={constants.routes.home} component={Home} />
           <Route path={constants.routes.ui} component={UI} />
           <Route path={constants.routes.graphic} component={Graphic} />
           <Route path={constants.routes.coding} component={Coding} />
           <Route path={constants.routes.photos} component={Photos} />
           <Route path={constants.routes.about} component={About} />
           <Route path={constants.routes.contact} component={Contact} />
-          <Redirect to={constants.routes.work} />
+          <Redirect to={constants.routes.home} />
         </Switch>
       </Router>
     );

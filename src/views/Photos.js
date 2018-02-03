@@ -1,5 +1,7 @@
 import React from 'react';
 import Nav from '../components/Nav';
+import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 import constants from '../components/constants';
 import 'react-dom';
 import Gallery from 'react-grid-gallery';
@@ -7,56 +9,56 @@ import Gallery from 'react-grid-gallery';
 export default class Photos extends React.Component {
     render() {
         const IMAGES = [{
-            src: './img/harley/harley.jpg',
-            thumbnail: './img/harley/harley.jpg',
+            src: constants.images.harley,
+            thumbnail: constants.images.harley,
             thumbnailWidth: 650,
             thumbnailHeight: 500
         },
         {
             src: './img/kobe/kobe.jpg',
-            thumbnail: './img/kobe/kobe.svg',
+            thumbnail: constants.images.kobe,
             thumbnailWidth: 500,
             thumbnailHeight: 610
         },
         {
-            src: './img/wushu/broad_sword.jpg',
-            thumbnail: './img/wushu/broad_sword.jpg',
+            src: constants.images.broad,
+            thumbnail: constants.images.broad,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/wushu/straight_sword.jpg',
-            thumbnail: './img/wushu/straight_sword.jpg',
+            src: constants.images.straight,
+            thumbnail: constants.images.straight,
             thumbnailWidth: 450,
             thumbnailHeight: 600
         },
         {
-            src: './img/wushu/spear.jpg',
-            thumbnail: './img/wushu/spear.jpg',
+            src: constants.images.spear,
+            thumbnail: constants.images.spear,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/wushu/long_fist.jpg',
-            thumbnail: './img/wushu/long_fist.jpg',
+            src: constants.images.long,
+            thumbnail: constants.images.long,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/bike/helmet.svg',
-            thumbnail: './img/bike/helmet.svg',
+            src: constants.images.helmet,
+            thumbnail: constants.images.helmet,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/bike/helmets.svg',
-            thumbnail: './img/bike/helmets.svg',
+            src: constants.images.helmets,
+            thumbnail: constants.images.helmets,
             thumbnailWidth: 600,
             thumbnailHeight: 500
         },
         {
-            src: './img/diets.png',
-            thumbnail: './img/diets.png',
+            src: constants.images.diets,
+            thumbnail: constants.images.diets,
             thumbnailWidth: 600,
             thumbnailHeight: 500
         },
@@ -73,8 +75,8 @@ export default class Photos extends React.Component {
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/ideation2.jpg',
-            thumbnail: './img/breez/ideation2.jpg',
+            src: constants.images.ideation,
+            thumbnail: constants.images.ideation,
             thumbnailWidth: 600,
             thumbnailHeight: 400
         },
@@ -109,116 +111,116 @@ export default class Photos extends React.Component {
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/home.png',
-            thumbnail: './img/breez/photos/home.png',
+            src: constants.images.screens.home,
+            thumbnail: constants.images.screens.home,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/search.png',
-            thumbnail: './img/breez/photos/search.png',
+            src: constants.images.screens.search,
+            thumbnail: constants.images.screens.search,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/multitask.png',
-            thumbnail: './img/breez/photos/multitask.png',
+            src: constants.images.screens.multitask,
+            thumbnail: constants.images.screens.multitask,
             thumbnailWidth: 250,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/lock.png',
-            thumbnail: './img/breez/photos/lock.png',
+            src: constants.images.screens.lock,
+            thumbnail: constants.images.screens.lock,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/joystick.png',
-            thumbnail: './img/breez/photos/joystick.png',
+            src: constants.images.screens.joystick,
+            thumbnail: constants.images.screens.joystick,
             thumbnailWidth: 600,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/notifications.png',
-            thumbnail: './img/breez/photos/notifications.png',
+            src: constants.images.screens.notifications,
+            thumbnail: constants.images.screens.notifications,
             thumbnailWidth: 250,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/albums.png',
-            thumbnail: './img/breez/photos/albums.png',
+            src: constants.images.screens.albums,
+            thumbnail: constants.images.screens.albums,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/music.png',
-            thumbnail: './img/breez/photos/music.png',
+            src: constants.images.screens.music,
+            thumbnail: constants.images.screens.music,
             thumbnailWidth: 500,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/camera.png',
-            thumbnail: './img/breez/photos/camera.png',
+            src: constants.images.screens.camera,
+            thumbnail: constants.images.screens.camera,
             thumbnailWidth: 600,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/browser.png',
-            thumbnail: './img/breez/photos/browser.png',
+            src: constants.images.screens.browser,
+            thumbnail: constants.images.screens.browser,
             thumbnailWidth: 600,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/video.png',
-            thumbnail: './img/breez/photos/video.png',
+            src: constants.images.screens.video,
+            thumbnail: constants.images.screens.video,
             thumbnailWidth: 600,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/contact.png',
-            thumbnail: './img/breez/photos/contact.png',
+            src: constants.images.screens.contact,
+            thumbnail: constants.images.screens.contact,
             thumbnailWidth: 600,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/email.png',
-            thumbnail: './img/breez/photos/email.png',
+            src: constants.images.screens.email,
+            thumbnail: constants.images.screens.email,
             thumbnailWidth: 600,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/message.png',
-            thumbnail: './img/breez/photos/message.png',
+            src: constants.images.screens.message,
+            thumbnail: constants.images.screens.message,
             thumbnailWidth: 600,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/task.png',
-            thumbnail: './img/breez/photos/task.png',
+            src: constants.images.screens.task,
+            thumbnail: constants.images.screens.task,
             thumbnailWidth: 800,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/note.png',
-            thumbnail: './img/breez/photos/note.png',
+            src: constants.images.screens.note,
+            thumbnail: constants.images.screens.note,
             thumbnailWidth: 800,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/calculator.png',
-            thumbnail: './img/breez/photos/calculator.png',
+            src: constants.images.screens.calculator,
+            thumbnail: constants.images.screens.calculator,
             thumbnailWidth: 250,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/clock.png',
-            thumbnail: './img/breez/photos/clock.png',
+            src: constants.images.screens.clock,
+            thumbnail: constants.images.screens.clock,
             thumbnailWidth: 250,
             thumbnailHeight: 400
         },
         {
-            src: './img/breez/photos/dialer.png',
-            thumbnail: './img/breez/photos/dialer.png',
+            src: constants.images.screens.dialer,
+            thumbnail: constants.images.screens.dialer,
             thumbnailWidth: 250,
             thumbnailHeight: 400
         },
@@ -226,17 +228,7 @@ export default class Photos extends React.Component {
 
         return (
             <div>
-                <div className='sticky-top'>
-                    <ul className='nav d-flex justify-content-around'>
-                        <Nav title='Works' link={constants.routes.work} />
-                        <Nav title='About' link={constants.routes.about} />
-                        <div className='d-flex logo'>
-                            <img src={constants.images.logo} alt="logo" />
-                        </div>
-                        <Nav className='disabled' title='Gallery' link={constants.routes.photos} />
-                        <Nav title='Contact' link={constants.routes.contact} />
-                    </ul>
-                </div>
+                <Navbar />
                 <div className='jumbotron jumbotron-fluid'>
                     <div>
                         <h2>Photo Gallery</h2>

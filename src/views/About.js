@@ -1,29 +1,24 @@
 import React from 'react';
 import Nav from '../components/Nav';
+import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 import constants from '../components/constants';
 
 export default class About extends React.Component {
     render() {
+        let background = {
+            backgroundColor: '#edeef0'
+        };
         return (
             <div>
-                <div className='sticky-top'>
-                    <ul className='nav d-flex justify-content-around'>
-                        <Nav title='Works' link={constants.routes.work} />
-                        <Nav className='disabled' title='About' link={constants.routes.about} />
-                        <div className='d-flex logo'>
-                            <img src={constants.images.logo} alt="logo" />
-                        </div>
-                        <Nav title='Gallery' link={constants.routes.photos} />
-                        <Nav title='Contact' link={constants.routes.contact} />
-                    </ul>
-                </div>
+                <Navbar />
                 <div className='jumbotron jumbotron-fluid'>
                     <div className='void'>
                         <h2>"If you aren't failing every now and then, you're probably playing it too safe."</h2>
                         <h5> - Woody Allen</h5>
                     </div>
                 </div>
-                <div className='whitespace'>
+                <div className='whitespace' style={background}>
                     <div className='container'>
                         <img className='d-block mx-auto' id='about' src={constants.images.profile} alt="profile" />
                         <h2 className='text-center pb-0'>Wynston Hsu</h2>

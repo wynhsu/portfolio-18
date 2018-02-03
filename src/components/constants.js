@@ -1,9 +1,9 @@
 export default {
     routes: {
-        work: '/work',
-        ui: '/work/ui',
-        graphic: '/work/graphic',
-        coding: '/work',
+        home: '/home',
+        ui: '/ui',
+        graphic: '/graphics',
+        coding: '/code',
         photos: '/gallery',
         about: '/about',
         contact: '/contact'
@@ -41,6 +41,27 @@ export default {
         gestures: './img/breez/gestures.svg',
         iteration: './img/breez/iteration.png',
         sketch: './img/breez/sketches.png',
-        orbiter: './img/breez/orbiter.png'
+        orbiter: './img/breez/orbiter.png',
+        screens: {
+            home: './img/breez/photos/home.png',
+            search: './img/breez/photos/search.png',
+            multitask: './img/breez/photos/multitask.png',
+            lock: './img/breez/photos/lock.png',
+            joystick: './img/breez/photos/joystick.png',
+            notifications: './img/breez/photos/notifications.png',
+            albums: './img/breez/photos/albums.png',
+            music: './img/breez/photos/music.png',
+            camera: './img/breez/photos/camera.png',
+            browser: './img/breez/photos/browser.png',
+            video: './img/breez/photos/video.png',
+            contact: './img/breez/photos/contact.png',
+            email: './img/breez/photos/email.png',
+            message: './img/breez/photos/message.png',
+            task: './img/breez/photos/task.png',
+            note: './img/breez/photos/note.png',
+            calculator: './img/breez/photos/calculator.png',
+            clock: './img/breez/photos/clock.png',
+            dialer: './img/breez/photos/dialer.png'
+        }
     }
 }
