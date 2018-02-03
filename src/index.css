@@ -144,7 +144,7 @@ button:hover {
 
 .parallax {
   /* The image used */
-  background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0)), url("./img/test.jpg");
+  background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0)), url("../public/img/test.jpg");
 
   /* Set a specific height */
   min-height: 100vh; 
@@ -178,7 +178,7 @@ button:hover {
   height: 350px;
   color: white;
   background-color: #3888BC;
-  background-image: url('./img/breez/breez_logo.svg');
+  background-image: url('../public/img/breez/breez_logo.svg');
   background-repeat: no-repeat;
   background-size: 100vw; /*FIX!!*/
   background-position: center;
