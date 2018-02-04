@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDom from 'react-dom';
 import Navbar from '../components/Navbar';
 import constants from '../components/constants';
 
@@ -13,6 +14,10 @@ import '../../node_modules/react-accessible-accordion/dist/react-accessible-acco
 
 
 export default class UI extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         var padding = {
             paddingTop: '200px',

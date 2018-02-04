@@ -1,8 +1,13 @@
 import React from 'react';
+import ReactDom from 'react-dom';
 import Navbar from '../components/Navbar';
 import constants from '../components/constants';
 
 export default class About extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         let background = {
             backgroundColor: '#edeef0'

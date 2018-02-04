@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDom from 'react-dom';
 import Navbar from '../components/Navbar';
 import constants from '../components/constants';
 
@@ -6,8 +7,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
 export default class Graphic extends React.Component {
-    render() {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
 
+    render() {
         return (
             <div>
                 <Navbar />

@@ -1,10 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import constants from '../components/constants';
-import 'react-dom';
+import ReactDom from 'react-dom';
 import Gallery from 'react-grid-gallery';
 
 export default class Photos extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         const IMAGES = [{
             src: constants.images.harley,
