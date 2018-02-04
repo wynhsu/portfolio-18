@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDom from 'react-dom';
 import Navbar from '../components/Navbar';
 import constants from '../components/constants';
 

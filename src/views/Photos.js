@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import constants from '../components/constants';
-import ReactDom from 'react-dom';
 import Gallery from 'react-grid-gallery';
 
 export default class Photos extends React.Component {

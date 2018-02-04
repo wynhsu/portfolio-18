@@ -53,9 +53,6 @@ export default class Contact extends React.Component {
             textAlign: 'center',
             color: '#444'
         }
-        let background = {
-            backgroundColor: '#e2e2e2'
-        }
         return (
             <div>
                 <Navbar />
@@ -81,7 +78,7 @@ export default class Contact extends React.Component {
                     </div>
                 </div>
                 <div className='button-dark'>
-                    <a href="./A4_complete.pdf" id='link'>Checkout my Resume</a>
+                    <a href="" id='link'>Checkout my Resume</a>
                 </div>
                 <p style={footer}>&#169;2018 &#9824; Wynston Hsu</p>
             </div>
