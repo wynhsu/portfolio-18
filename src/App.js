@@ -21,7 +21,7 @@ class App extends Component {
           <Route path={constants.routes.photos} component={Photos} />
           <Route path={constants.routes.about} component={About} />
           <Route path={constants.routes.contact} component={Contact} />
-          {/* <Redirect to={constants.routes.home} /> */}
+          <Redirect to={constants.routes.home} />
         </Switch>
       </Router>
     );
