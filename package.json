@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://wynhsu.github.io/portfolio-18/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
