@@ -24,6 +24,15 @@ p {
   font-weight: lighter;
 }
 
+.footer {
+  display: block;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #444;
+}
+
 .jumbotron {
   text-align: center;
   margin: 0;
@@ -126,6 +135,22 @@ p {
   text-align: center;
 }
 
+#creating {
+  top: 20%;
+}
+
+h4.title {
+  top: 38%;
+}
+
+#empathy {
+  top: 50%;
+}
+
+p.title {
+  top: 75%;
+}
+
 .title, .absolute, .button {
   color: #fff;
   position: absolute;
@@ -134,9 +159,9 @@ p {
   text-align: center;
 }
 
-.title {
-  top: 40%;
-}
+/* .title {
+  top: 20%;
+} */
 
 .absolute {
   top: 0;
@@ -163,7 +188,7 @@ p {
 
 .parallax {
   /* The image used */
-  background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0)), url("./test.jpg");
+  background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0)), url("./test.jpg");
 
   /* Set a specific height */
   min-height: 100vh; 
@@ -182,7 +207,7 @@ p {
 
 .cover { /**/
   position: absolute;
-  background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0));
+  background: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0));
   height: 100%;
   width: 100vw;
   z-index: 1;
@@ -208,7 +233,7 @@ p {
   text-shadow: 3px 3px #444;
   height: 350px;
   color: white;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0)), url('./background.svg');
+  background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0)), url('./background.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -335,6 +360,19 @@ img, .carousel {
   h1 {
     font-size: 5em!important;
   }
+
+  h4.title {
+    top: 41%;
+    /* animation-delay: 1s; */
+  }
+
+  /* #empathy {
+    animation-delay: 2s;
+  }
+
+  p.title {
+    animation-delay: 3s;
+  } */
 
   .title {
     animation: fadeIn 2s;

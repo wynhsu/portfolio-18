@@ -8,16 +8,28 @@ import { Carousel } from 'react-responsive-carousel';
 export default class Home extends React.Component {
     componentDidMount() {
         window.scrollTo(0,0);
+        setTimeout(() => {
+            let cite = document.querySelectorAll('.title');
+            cite[3].classList.remove('d-none');
+        }, 1500);
+        // let cite = document.querySelectorAll('.title')
+        // for (let i = 1; i < cite.length; i++) {
+        //     setTimeout(() => {
+        //         cite[i].classList.remove('d-none');
+        //     }, 3000);
+        // }
     }
-    
+
     render() {
         return (
             <div>
                 <Navbar />
                 <div>
                     <div className='parallax'></div>
-                    <h1 className='title'>Design Empathy</h1>
-                    <p className='title'>Portfolio created by Wynston Hsu</p>
+                    <h1 className='title' id='creating'>Creating</h1>
+                    <h4 className='title'>Through</h4>
+                    <h1 className='title' id='empathy'>Empathy</h1>
+                    <p className='title d-none'>Portfolio created by Wynston Hsu</p>
                     <Carousel className='viewport'>
                         <div>
                             <div className='absolute'>

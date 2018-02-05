@@ -78,9 +78,9 @@ export default class Contact extends React.Component {
                     </div>
                 </div>
                 <div className='button-dark'>
-                    <a href="" id='link'>Checkout my Resume</a>
+                    <a href="./A4_complete.pdf" target='_blank' id='link'>Checkout my Resume</a>
                 </div>
-                <p style={footer}>&#169;2018 &#9824; Wynston Hsu</p>
+                <p className='footer'>&#169;2018 &#9824; Wynston Hsu</p>
             </div>
         );
     }
