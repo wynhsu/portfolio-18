@@ -46,13 +46,6 @@ export default class Contact extends React.Component {
     }
 
     render() {
-        let footer = {
-            bottom: 0,
-            position: 'absolute',
-            width: '100%',
-            textAlign: 'center',
-            color: '#444'
-        }
         return (
             <div>
                 <Navbar />
