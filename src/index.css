@@ -188,7 +188,7 @@ p.title {
 
 .parallax {
   /* The image used */
-  background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0)), url("./test.jpg");
+  background-image: url("./seattle1.jpg");
 
   /* Set a specific height */
   min-height: 100vh; 
@@ -207,7 +207,7 @@ p.title {
 
 .cover { /**/
   position: absolute;
-  background: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0));
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0));
   height: 100%;
   width: 100vw;
   z-index: 1;
@@ -233,7 +233,7 @@ p.title {
   text-shadow: 3px 3px #444;
   height: 350px;
   color: white;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0)), url('./background.svg');
+  background-image: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0)), url('./background.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
