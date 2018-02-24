@@ -4,9 +4,6 @@ import constants from '../components/constants';
 
 export default class Coding extends React.Component {
     render() {
-        let size = {
-            maxWidth: '400px'
-        }
         return (
             <div>
                 <Navbar />
