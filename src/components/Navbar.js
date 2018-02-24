@@ -14,7 +14,7 @@ export default class Navbar extends React.Component {
                         <div className="dropdown-content">
                             <Link to={constants.routes.ui}>Design</Link>
                             <Link to={constants.routes.graphic}>Graphics</Link>
-                            {/* <Link to={constants.routes.coding}>Code</Link> */}
+                            <Link to={constants.routes.coding}>Code</Link>
                         </div>
                     </div>
                     <Nav title='About' link={constants.routes.about} />

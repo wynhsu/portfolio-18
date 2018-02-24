@@ -45,6 +45,8 @@ export default class UI extends React.Component {
                                 <p>Brent G., Cynthia R., Eduardo R., Mike E., Sangwoo 'Martin' S.</p>
                                 <h6 className='pt-3 pb-0'>Tools: </h6>
                                 <p>Figma, Invision, Google Slides</p>
+                                <h6 className='pt-3 pb-0'>Skills: </h6>
+                                <p>Wireframing, Persona Development, Competitive Analysis</p>
                             </div>
                         </div>
                         <h4 className='text-center'>Design Language</h4>

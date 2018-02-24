@@ -13,7 +13,7 @@ export default {
         logo: './img/initials1.svg',
         breez: './img/breez/breez_logo.svg',
         diets: './img/diets.png',
-        words: './img/words/words.svg',
+        words: './img/WWF_Mockup.png',
         background: './img/background.svg',
         harley: './img/harley/harley.jpg',
         harley_origin: './img/harley/harley_original.jpg',
