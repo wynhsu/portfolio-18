@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import constants from '../components/constants';
 
 export default class Contact extends React.Component {
     switchLILight(evt) {
@@ -71,9 +70,9 @@ export default class Contact extends React.Component {
                     </div>
                 </div>
                 <div className='button-dark'>
-                    <a href="./A4_complete.pdf" target='_blank' id='link'>Checkout my Resume</a>
+                    <a href="./wynston_hsu.pdf" target='_blank' id='link'>Checkout my Resume</a>
                 </div>
-                <p className='footer'>&#169;2018 &#9824; Wynston Hsu</p>
+                <p className='footer'>&#169;2018 &#9824; Wynston Hsu with React.js</p>
             </div>
         );
     }

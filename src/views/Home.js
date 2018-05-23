@@ -12,12 +12,6 @@ export default class Home extends React.Component {
             let cite = document.querySelectorAll('.title');
             cite[3].classList.remove('d-none');
         }, 1500);
-        // let cite = document.querySelectorAll('.title')
-        // for (let i = 1; i < cite.length; i++) {
-        //     setTimeout(() => {
-        //         cite[i].classList.remove('d-none');
-        //     }, 3000);
-        // }
     }
 
     render() {
@@ -33,14 +27,28 @@ export default class Home extends React.Component {
                     <Carousel className='viewport'>
                         <div>
                             <div className='absolute'>
-                                <h2 className=''>Design</h2>
-                                <p>Designs that are natural to the human intuition and convenient for everyday life.</p>
+                                <h2 className=''>Breez Mobile OS</h2>
+                                <p>A language inspired by nature and in harmony with people</p>
+                                {/* <p>Designs that are natural to the human intuition and convenient for everyday life.</p> */}
                             </div>
                             <div className='cover'></div>
-                            <img className='splash' src='./img/blur2.jpg' alt="design" />
+                            <img className='splash' src='./img/breez/breez_logo.svg' alt="design" />
                             <div className='button'>
                                 <button>
                                     <Link to={constants.routes.ui}>Explore</Link>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='absolute'>
+                                <h2 className=''>Foodie Fanatic</h2>
+                                <p>Beyond the boundaries of taste</p>
+                            </div>
+                            <div className='cover'></div>
+                            <img className='splash' src='./img/foodie/cover.png' alt="design" />
+                            <div className='button'>
+                                <button>
+                                    <Link to={constants.routes.foodie}>Explore</Link>
                                 </button>
                             </div>
                         </div>
@@ -50,7 +58,7 @@ export default class Home extends React.Component {
                                 <p>Whether it be infographic, portraits or logos, I love creating beautiful graphics!</p>
                             </div>
                             <div className='cover'></div>
-                            <img className='splash' src='./img/graphics.jpg' alt="graphics" />
+                            <img className='splash' src='./img/diets.png' alt="graphics" />
                             <div className='button'>
                                 <button>
                                     <Link to={constants.routes.graphic}>Explore</Link>
@@ -60,10 +68,15 @@ export default class Home extends React.Component {
                         <div>
                             <div className='absolute'>
                                 <h2>Code</h2>
-                                <p>Coming soon!</p>
+                                <p>My own implementation of <i>Words With Friends!</i></p>
                             </div>
                             <div className='cover'></div>
-                            <img className='splash' src="./img/code.jpg" alt="code" />
+                            <img className='splash' src="./img/WWF_Mockup.jpg" alt="code" />
+                            <div className='button'>
+                                <button>
+                                    <Link to={constants.routes.coding}>Explore</Link>
+                                </button>
+                            </div>
                         </div>
                     </Carousel>
                 </div>

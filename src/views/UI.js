@@ -42,7 +42,7 @@ export default class UI extends React.Component {
                                 <h6 className='pt-3 pb-0'>Duration: </h6>
                                 <p>Sept - Dec 2017 (10 weeks)</p>
                                 <h6 className='pt-3 pb-0'>Members: </h6>
-                                <p>Brent G., Cynthia R., Eduardo R., Mike E., Sangwoo 'Martin' S.</p>
+                                <p><a href='https://brentgruenke.com/'>Brent G.</a>, Cynthia R., <a href='http://www.eduardorojase.com/'>Eduardo R.</a>, <a href='https://www.mikeeacker.com'>Mike E.</a>, Sangwoo 'Martin' S.</p>
                                 <h6 className='pt-3 pb-0'>Tools: </h6>
                                 <p>Figma, Invision, Google Slides</p>
                                 <h6 className='pt-3 pb-0'>Skills: </h6>
@@ -61,26 +61,36 @@ export default class UI extends React.Component {
                                 <p>Facilitate the needs of the user without embellishing or distracting.</p>
                             </div>
                             <div className='col-md'>
-                                <img src={constants.images.ideation} alt="ideation" />
+                                <img src={constants.images.breez_ui.ideation} alt="ideation" />
                                 <p className='text-center'>We began our design process with an affinity diagram of what we like or disliked about current mobile environments on the market.</p>
                             </div>
                         </div>
+
+                        {/* <h4 className='text-center pb-0'>Market Trend and Competitive Analysis</h4>
+                        <div className='row'>
+                            <div className='col-md'>
+
+                            </div>
+                            <div className='col-md'>
+                                <img src={constants.images.breez_ui.appletv} alt="appletv"/>
+                                <img src={constants.images.breez_ui.netflix} alt="netflix"/>
+                            </div>
+                        </div> */}
 
                         <h4 className='text-center pb-0'>System and Gestures</h4>
                         <div className='row'>
                             <div className='col-md-8'>
                                 <h5>Our Approach</h5>
                                 <p>Our intention was to design an operating system that would provide maximum comfort and functionality, through the utilization of natural human motion and gestures. In our <a href='http://scotthurff.com/posts/how-to-design-for-thumbs-in-the-era-of-huge-screens'>initial research</a>, we discovered this heat map illustrating the reachable zones on screen during one-hand use. We adopted this as a core focus, and designed our interactions around the 'natural' zones on screen.</p>
-                                <img className='spacer_top' src={constants.images.gestures} alt="home_button" />
+                                <img className='spacer_top' src={constants.images.breez_ui.gestures} alt="home_button" />
                             </div>
                             <div className='col-md-4 h-25 d-flex flex-row-reverse'>
-                                <img className='h-25 m-auto' src={constants.images.heat_map} alt="heat_map" />
+                                <img className='h-25 m-auto' src={constants.images.breez_ui.heat_map} alt="heat_map" />
                             </div>
                         </div>
                         <div className='spacer_LR'>
                             <h5 className='p-0'>Concept Wireframes</h5>
-                            <img src={constants.images.wireframe} alt="wireframe" />
-                            <img src={constants.images.sketch} alt="sketch" />
+                            <img src={constants.images.breez_ui.wireframe} alt="wireframe" />
                         </div>
 
                         <h4 className='text-center pb-0'>Process and Iteration</h4>
@@ -91,12 +101,12 @@ export default class UI extends React.Component {
                             </div>
                             <div className='col-md'>
                                 <p className='pl-5'>Initial sketches for the orbiter</p>
-                                <img src={constants.images.orbiter} alt="orbiter" />
+                                <img src={constants.images.breez_ui.orbiter} alt="orbiter" />
                             </div>
                         </div>
                         <div className='spacer_LR'>
                             <h5 className='p-0'>Old Screens</h5>
-                            <img src={constants.images.iteration} alt="iterations" />
+                            <img src={constants.images.breez_ui.iteration} alt="iterations" />
                         </div>
                         <p className='spacer_LR pb-5'>Through our iterations, we would come to eventually abandon the idea of the orbiter. This decision was made due to many factors regarding feasibility and time constraint. It was illuminated to us during critique by professional designers that while the Action Orbiter provided access to features during one hand usage, it was at the cost of keeping said features hidden from the users. In addition to being hidden, the features within the orbiter differed depending on the app, which added another layer of complexity as it left users guessing what options were possible on each screen.</p>
 
@@ -109,7 +119,7 @@ export default class UI extends React.Component {
                                 </AccordionItemTitle>
                                 <AccordionItemBody>
                                     <p>
-                                        <img src={constants.images.system} alt="system" />
+                                        <img src={constants.images.breez_ui.system} alt="system" />
                                     </p>
                                 </AccordionItemBody>
                             </AccordionItem>
@@ -119,7 +129,7 @@ export default class UI extends React.Component {
                                 </AccordionItemTitle>
                                 <AccordionItemBody>
                                     <p>
-                                        <img src={constants.images.productivity} alt="productivity" />
+                                        <img src={constants.images.breez_ui.productivity} alt="productivity" />
                                     </p>
                                 </AccordionItemBody>
                             </AccordionItem>
@@ -129,7 +139,7 @@ export default class UI extends React.Component {
                                 </AccordionItemTitle>
                                 <AccordionItemBody>
                                     <p>
-                                        <img src={constants.images.communication_media} alt="communication and media" />
+                                        <img src={constants.images.breez_ui.communication_media} alt="communication and media" />
                                     </p>
                                 </AccordionItemBody>
                             </AccordionItem>

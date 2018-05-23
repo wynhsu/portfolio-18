@@ -42,12 +42,12 @@ export default class Graphic extends React.Component {
                 <div className='container spacer_LR'>
                     <h4 className='text-center'>Vector Graphic Illustrations</h4>
                     <div className='row spacer_bot'>
-                        <div className='col-lg-4 '>
+                        <div className='col-lg-4'>
                             <h5>Harley Quinn</h5>
                             <p>This portrait is based off of Margot Robbie's Harley Quinn from the movie <i>Suicide Squad</i>. To create this vector portrait, I first sketched the outline of the characters features. I then proceeded to outline the shapes based on the different shades of light. Finally, I layered the shapes together to form the finished product.</p>
                         </div>
                         <div className='col-lg-8 horizontal'>
-                            <Carousel className='remove'>
+                            <Carousel>
                                 <div className='horizontal'>
                                     <img src={constants.images.harley} alt='portrait' />
                                     <p className="legend">Background Source: <i>Squad Yourself - Official Icon Generator for Suicide Squad</i></p>
@@ -86,35 +86,35 @@ export default class Graphic extends React.Component {
                         <div className='horizontal col-lg-8'>
                             <Carousel>
                                 <div className='horizontal'>
-                                    <img src={constants.images.broad} alt='figures' />
+                                    <img src={constants.images.wushu.broad} alt='figures' />
                                     <p className="legend">Background Source: <i>123RF</i></p>
                                 </div>
                                 <div className='horizontal'>
-                                    <img src={constants.images.broad_origin} alt='figures' />
+                                    <img src={constants.images.wushu.broad_origin} alt='figures' />
                                     <p className="legend">Original Source: <i>Getty Images</i></p>
                                 </div>
                                 <div className='vertical'>
-                                    <img src={constants.images.straight} alt='figures' />
+                                    <img src={constants.images.wushu.straight} alt='figures' />
                                     <p className="legend">Background Source: <i>123RF</i></p>
                                 </div>
                                 <div className='vertical'>
-                                    <img src={constants.images.straight_origin} alt='figures' />
+                                    <img src={constants.images.wushu.straight_origin} alt='figures' />
                                     <p className="legend">Original Source: <i>permitbeijing.com</i></p>
                                 </div>
                                 <div className='horizontal'>
-                                    <img src={constants.images.spear} alt='figures' />
+                                    <img src={constants.images.wushu.spear} alt='figures' />
                                     <p className="legend">Background Source: <i>PNG Tree</i></p>
                                 </div>
                                 <div className='horizontal'>
-                                    <img src={constants.images.spear_origin} alt='figures' />
+                                    <img src={constants.images.wushu.spear_origin} alt='figures' />
                                     <p className="legend">Original Source: <i>TotalMartialartSupplies.com</i></p>
                                 </div>
                                 <div className='horizontal'>
-                                    <img src={constants.images.long} alt='figures' />
+                                    <img src={constants.images.wushu.long} alt='figures' />
                                     <p className="legend">Background Source: <i>Wikipedia - Yin and Yang</i></p>
                                 </div>
                                 <div className='horizontal'>
-                                    <img src={constants.images.long_origin} alt='shapes' />
+                                    <img src={constants.images.wushu.long_origin} alt='shapes' />
                                     <p className="legend">Original Source: <i>sportistan.com</i></p>
                                 </div>
                             </Carousel>
